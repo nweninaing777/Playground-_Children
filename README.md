@@ -8,7 +8,7 @@ You can also register the playground you want to go effortlessly.
 
 # Development environment
 Ruby 2.6.5
-Rails 5.2.4
+Rails 5.2.4.4
 
 # Functions list
 ## Scheduled to be implemented
@@ -33,7 +33,7 @@ https://cacoo.com/diagrams/YMXRlpxv6aHjifrR/49881
 # Screen transition diagram
 https://drive.google.com/file/d/1f3rzc4xLj2kx0nbwSVlXmiYWMf4XhmYP/view?usp=sharing
 # Wire frame
-
+https://cacoo.com/diagrams/8rG1hKfRNi6ymJjn/BA1C7
 # Use Gem
   * enum_help
   * carrierwave
