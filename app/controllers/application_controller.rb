@@ -1,13 +1,12 @@
 class ApplicationController < ActionController::Base
   protect_from_forgery with: :exception
   helper_method :current_user, :log_in?
-  # before_action :login_required
+
   before_action :current_user
   before_action :current_playground
 
   private
-
-  def current_user
+def current_user
     @current_user ||= User.find_by(id: session[:user_id]) if session[:user_id]
   end
 
