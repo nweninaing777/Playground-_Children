@@ -16,7 +16,6 @@ class ConversationsController < ApplicationController
       redirect_to root_path
     end
   end
-
   private
 
   def conversation_params
